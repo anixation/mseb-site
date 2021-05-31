@@ -1,0 +1,42 @@
+body {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.fc-title {
+  font-size: 20px;
+  color: #2c3e50;
+  margin-bottom: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+.bill-container {
+  border: 1px solid #c6d6e7;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bill-container > div {
+  display: flex;
+}
+.bill-container > div:last-child {
+  border: 1px solid #c6d6e7;
+  border-top-width: 2px;
+}
+.bill-container > div > div {
+  width: 50%;
+  border: 1px solid #c6d6e7;
+  padding: 5px;
+  color: #000000;
+  font-size: 12px;
+}
+.bill-container .bill-label {
+  font-weight: 700;
+  text-align: left;
+}
+.bill-container .bill-value {
+  text-align: right;
+}
